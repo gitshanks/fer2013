@@ -15,7 +15,8 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("fer.h5")
 print("Loaded model from disk")
 
-
+truey=[]
+predy=[]
 x = np.load('./modXtest.npy')
 y = np.load('./modytest.npy')
 
@@ -27,8 +28,15 @@ count = 0
 for i in range(len(y)):
     yy = max(yh[i])
     yyt = max(yt[i])
+    predy.append(yh[i].index(yy))
+    truey.append(yt[i].index(yyt))
     if(yh[i].index(yy)== yt[i].index(yyt)):
         count+=1
 
 acc = (count/len(y))*100
-print("\nAccuracy on test set :"+str(acc)+"%")
+
+#saving values for confusion matrix and analysis
+np.save('truey', truey)
+np.save('predy', predy)
+print("Predicted and true label values saved")
+print("Accuracy on test set :"+str(acc)+"%")
