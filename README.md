@@ -6,6 +6,6 @@ Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learnin
 ![confusionmatrix](https://user-images.githubusercontent.com/28602282/47956084-d8186080-df64-11e8-9d07-c7eda5cf6697.png)
 
 # Model Summary
-![screenshot from 2018-11-03 20-41-05](https://user-images.githubusercontent.com/28602282/47959400-da9ca980-dfa8-11e8-8e21-c3a925c66ca0.png)
+![layers](https://user-images.githubusercontent.com/28602282/48034278-f5435f80-e11b-11e8-8390-585e34fc18ae.png)
 
 ![fer](https://user-images.githubusercontent.com/28602282/48025417-91f80400-e100-11e8-8477-4773f6c090d4.png)
