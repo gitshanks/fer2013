@@ -7,3 +7,5 @@ Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learnin
 
 # Model Summary
 ![screenshot from 2018-11-03 20-41-05](https://user-images.githubusercontent.com/28602282/47959400-da9ca980-dfa8-11e8-8e21-c3a925c66ca0.png)
+
+![fer](https://user-images.githubusercontent.com/28602282/48025417-91f80400-e100-11e8-8477-4773f6c090d4.png)
