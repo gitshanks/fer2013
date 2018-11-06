@@ -1,12 +1,7 @@
 # FER2013
-Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network with 66.369% accuracy.
-
 Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
-
+Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network with 66.369% accuracy.
 Winner - 71.161% accuracy
-
-
-
 ## Getting Started
 
 These instructions will get this model up and running. Follow them to make use of the `fertestcusstom.py` file to recognize facial emotions using custom images. This model can also be used as facial emotion recognition part of projects with broader applications
