@@ -1,8 +1,4 @@
 # FER2013
-# Size Limit [![Cult Of Martians][cult-img]][cult]
-
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
-     title="Size Limit logo by Anton Lovchikov" width="120" height="178">
 Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network
 
 Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
