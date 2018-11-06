@@ -7,7 +7,7 @@ Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learnin
 
 ## Getting Started
 
-These instructions will get this model up and running. Follow these step by step to make use of the fertestcustom.py file to recognize facial emotions using custom images. This model can also be used as facial emotion recognition part of projects with broader applications
+These instructions will get this model up and running. Follow them to make use of the `fertestcusstom.py` file to recognize facial emotions using custom images. This model can also be used as facial emotion recognition part of projects with broader applications
 
 ### Prerequisites
 Tensorflow
