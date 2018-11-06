@@ -8,5 +8,6 @@ Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learnin
 # Model Summary
 ![layers](https://user-images.githubusercontent.com/28602282/48034278-f5435f80-e11b-11e8-8390-585e34fc18ae.png)
 
-![layer](https://user-images.githubusercontent.com/28602282/48034439-a649fa00-e11c-11e8-9813-64b6214cf1a5.png)
+![layer](https://user-images.githubusercontent.com/28602282/48034508-f5902a80-e11c-11e8-9265-3b3eaea642a0.png)
+
 
