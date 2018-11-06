@@ -1,7 +1,9 @@
 # FER2013
-Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network
+Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network with 66.369% accuracy.
 
 Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+
+Winner - 71.161% accuracy
 
 
 
