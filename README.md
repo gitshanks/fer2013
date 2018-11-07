@@ -1,4 +1,7 @@
 # FER2013
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
 Kaggle Challenge - https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
 Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Network. 
