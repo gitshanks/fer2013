@@ -6,6 +6,7 @@ Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Netwo
 80-10-10 ratio for training-validation-test sets.
 
 Winner - 71.161% accuracy
+
 This Model -  66.369% accuracy
 
 ![emotions](https://user-images.githubusercontent.com/28602282/48102098-ab737b80-e1e6-11e8-8541-517de2be0064.png)
