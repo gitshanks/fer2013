@@ -59,9 +59,16 @@ Run the `fertrain.py` file,  this would take sometime depending on your processo
 
 You can test the accuracy of trained classifier using `modXtest.npy` and `modytest.npy` by running `fertest.py` file. This would give youy the accuracy in % of the recently trained classifier.
 
+## Getting the Confusion Matrix (Optional)
+
+You can get the confusion matrix for this model by running `confmatrix.py` file. This would evaluate the most confused expressions and generate a `confusionmatrix.png` file for your trained model, which would look something like this.
+
 ![confusionmatrix](https://user-images.githubusercontent.com/28602282/47956084-d8186080-df64-11e8-9d07-c7eda5cf6697.png)
 
 # Model Summary
+
+The layers in the Convolution Neural Network used in implementing this classifier can be summarized as follows. You can git a similar summary by decommenting the `model.summar()` function before executing `fertrain.py` file.
+
 ![layers](https://user-images.githubusercontent.com/28602282/48034278-f5435f80-e11b-11e8-8390-585e34fc18ae.png)
 
 ![layer](https://user-images.githubusercontent.com/28602282/48034508-f5902a80-e11c-11e8-9265-3b3eaea642a0.png)
