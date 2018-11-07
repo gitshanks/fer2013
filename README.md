@@ -1,9 +1,9 @@
 # FER2013 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]("https:/")
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/gitshanks/fer2013/releases)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](http://gitshanks.github.io)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](http://gitshanks.github.io)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
