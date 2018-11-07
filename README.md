@@ -70,5 +70,3 @@ You can get the confusion matrix for this model by running `confmatrix.py` file.
 The layers in the Convolution Neural Network used in implementing this classifier can be summarized as follows. You can git a similar summary by decommenting the `model.summar()` function before executing `fertrain.py` file.
 
 ![layers](https://user-images.githubusercontent.com/28602282/48034278-f5435f80-e11b-11e8-8390-585e34fc18ae.png)
-
-![layer](https://user-images.githubusercontent.com/28602282/48034508-f5902a80-e11c-11e8-9265-3b3eaea642a0.png)
