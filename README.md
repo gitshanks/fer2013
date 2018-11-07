@@ -7,6 +7,8 @@ Facial Emotion Recognition on FER2013 Dataset Using a Convolutional Neural Netwo
 
 Winner - 71.161% accuracy
 
+![emotions](https://user-images.githubusercontent.com/28602282/48102098-ab737b80-e1e6-11e8-8541-517de2be0064.png)
+
 ## Getting Started
 
 These instructions will get this model up and running. Follow them to make use of the `fertestcusstom.py` file to recognize facial emotions using custom images. This model can also be used as facial emotion recognition part of projects with broader applications
