@@ -25,12 +25,7 @@ This Model -  66.369% accuracy
 These instructions will get this model up and running. Follow them to make use of the `fertestcusstom.py` file to recognize facial emotions using custom images. This model can also be used as facial emotion recognition part of projects with broader applications
 
 ### Prerequisites
-Tensorflow
-Keras
-NumPy
-sklearn
-Pandas
-OpenCV
+Install these prerequisites before proceeding-
 ```
  pip3 install tensorflow
  pip3 install keras
