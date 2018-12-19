@@ -2,20 +2,23 @@ import sys, os
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Conv2D, MaxPooling2D, BatchNormalization
-from keras.losses import categorical_crossentropy
-from keras.optimizers import Adam
-from keras.regularizers import l2
-from keras.callbacks import ReduceLROnPlateau, TensorBoard, EarlyStopping, ModelCheckpoint
-from keras.models import load_model
-from keras.models import model_from_json
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, BatchNormalization
+from tensorflow.keras.losses import categorical_crossentropy
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.callbacks import ReduceLROnPlateau, TensorBoard, EarlyStopping, ModelCheckpoint
+from tensorflow.keras.models import load_model
+from tensorflow.keras.models import model_from_json
+import tensorflow as tf
 
+from tensorflow.contrib.distribute.python import tpu_strategy as tpu_lib
+#from tensorflow import keras
 
 num_features = 64
 num_labels = 7
-batch_size = 64
+batch_size = 1024
 epochs = 100
 width, height = 48, 48
 
@@ -86,17 +89,32 @@ model.compile(loss=categorical_crossentropy,
               optimizer=Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-7),
               metrics=['accuracy'])
 
+
+tpu_model = tf.contrib.tpu.keras_to_tpu_model(
+     model,
+     strategy=tf.contrib.tpu.TPUDistributionStrategy(
+         tf.contrib.cluster_resolver.TPUClusterResolver(
+#             tpu='grpc://' + os.environ['TPU_NAME'])
+            tpu=os.environ['TPU_NAME'])
+    )
+)
+
+
 #training the model
-model.fit(np.array(X_train), np.array(y_train),
+tpu_model.fit(np.array(X_train), np.array(y_train),
           batch_size=batch_size,
           epochs=epochs,
           verbose=1,
           validation_data=(np.array(X_valid), np.array(y_valid)),
           shuffle=True)
 
+
+#TPU MODEL
+
+
 #saving the  model to be used later
-fer_json = model.to_json()
-with open("fer.json", "w") as json_file:
-    json_file.write(fer_json)
-model.save_weights("fer.h5")
+#fer_json = tpu_model.to_json()
+#with open("tpu_fer.json", "w") as json_file:
+#    json_file.write(fer_json)
+tpu_model.save("tpu_fer.h5")
 print("Saved model to disk")
