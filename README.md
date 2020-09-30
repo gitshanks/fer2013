@@ -54,6 +54,8 @@ Run the `fertrain.py` file,  this would take sometime depending on your processo
 
 You can test the accuracy of trained classifier using `modXtest.npy` and `modytest.npy` by running `fertest.py` file. This would give youy the accuracy in % of the recently trained classifier.
 
+If you get any error with python3 or above update ur protobuf to 3.8.0 which hopefully solves the problem.
+
 ## Getting the Confusion Matrix (Optional)
 
 You can get the confusion matrix for this model by running `confmatrix.py` file. This would evaluate the most confused expressions and generate a `confusionmatrix.png` file for your trained model, which would look something like this.
